@@ -1,0 +1,32 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '25.0.0'
+    defaultConfig {
+        applicationId 'alghima.io.gmushriq'
+        minSdkVersion 19
+        targetSdkVersion 23
+        versionCode 3
+        versionName '1.2'
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile files('libs/picasso-2.5.2.jar')
+    compile 'com.android.support:appcompat-v7:25.2.0'
+    compile 'com.google.firebase:firebase-core:10.2.0'
+    compile 'com.google.firebase:firebase-messaging:10.2.0'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    testCompile 'junit:junit:4.12'
+}
+apply plugin: 'com.google.gms.google-services'

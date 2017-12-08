@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/appbgcolor">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="20dp">
+
+            <RelativeLayout
+                android:id="@+id/top_app"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:layoutDirection="rtl"
+                android:padding="15dp">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/main_logo" />
+
+                <TextView
+                    android:id="@+id/see_ur_orphans"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginRight="90dp"
+                    android:text="@string/see_your_orphans"
+
+                    android:textColor="@color/red"
+                    android:textSize="22dp" />
+
+                <TextView
+                    android:id="@+id/signin"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignEnd="@+id/see_ur_orphans"
+                    android:layout_centerVertical="true"
+                    android:paddingTop="15dp"
+                    android:text="@string/signin_and_see_ur_orphhans"
+                    android:textColor="#555555"
+                    android:textSize="16dp" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/orphan_nosponsor"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/nosponsor_shape"
+                android:paddingRight="10dp"
+                android:text="@string/orphan_nosponsor"
+                android:textColor="@android:color/background_dark"
+                android:textSize="20dp"
+
+
+                />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="#fff"
+                android:layoutDirection="rtl"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:id="@+id/parent_orphan"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/white"
+                    android:layoutDirection="rtl"
+                    android:orientation="horizontal"
+                    android:padding="15dp">
+
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/news_section"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/news_section_shape"
+                android:paddingRight="10dp"
+                android:text="@string/enterprise_news"
+                android:textColor="@android:color/background_dark"
+                android:textSize="20dp"
+
+                />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/parent_news"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/white"
+                    android:layoutDirection="rtl"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
+
+                </LinearLayout>
+
+
+            </ScrollView>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/signout"
+                android:background="@drawable/btn_logout"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"
+                android:id="@+id/btn_signout"
+                android:visibility="gone"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

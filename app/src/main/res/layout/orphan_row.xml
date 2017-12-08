@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+
+    >
+
+<ImageView
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:id="@+id/orphans_image"
+    android:layout_marginRight="10dp"
+    android:background="@color/appbgcolor"
+
+    />
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:text="sajjad asaad"
+        android:id="@+id/orphans_name"
+        android:layout_marginRight="15dp"
+        />
+</LinearLayout>

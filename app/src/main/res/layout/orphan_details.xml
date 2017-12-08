@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/orphan_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+
+            <TextView
+                android:text="@string/name"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_name"
+                android:layout_toEndOf="@+id/imageView2"
+                android:layout_margin="5dp"
+                android:textSize="18dp"
+                android:textColor="@android:color/black"/>
+            <TextView
+                android:text="@string/birth_date"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_birth_date"
+                android:layout_below="@+id/tv_name"
+                android:layout_toEndOf="@+id/imageView2"
+                android:layout_margin="5dp"
+                android:textSize="18dp"
+                android:textColor="@android:color/black"
+                android:layoutDirection="rtl"/>
+
+            <TextView
+                android:text="@string/acadmy_level"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_acadmy_level"
+                android:layout_below="@+id/tv_birth_date"
+                android:layout_toEndOf="@+id/imageView2"
+                android:layout_margin="5dp"
+                android:textSize="18dp"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:text="@string/school_name"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_school_name"
+                android:layout_below="@+id/tv_acadmy_level"
+                android:layout_toEndOf="@+id/imageView2"
+                android:layout_margin="5dp"
+                android:textSize="18dp"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:text="@string/disease"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_disease"
+                android:layout_below="@+id/tv_school_name"
+                android:layout_toEndOf="@+id/imageView2"
+                android:layout_margin="5dp"
+                android:textSize="18dp"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:text="@string/information"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/_tv_info"
+                android:layout_below="@+id/tv_disease"
+                android:layout_toEndOf="@+id/imageView2"
+                android:layout_margin="5dp"
+                android:textSize="18dp"
+                android:textColor="@android:color/black"/>
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_margin="10dp"
+                android:scaleType="centerCrop"
+                android:background="@color/appbgcolor"/>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/_tv_info"
+                android:id="@+id/btn_join"
+                android:layout_margin="10dp"
+                android:text=""
+                android:gravity="center"
+                android:elevation="2dp"
+                android:background="@drawable/official_btn"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                android:stateListAnimator="@null"
+                android:paddingBottom="5dp"
+                />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

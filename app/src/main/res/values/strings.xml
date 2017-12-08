@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">غد مشرق</string>
+    <string name="see_your_orphans">أطلع على ايتامك</string>
+    <string name="orphan_nosponsor">أيتام بدون كفيل</string>
+    <string name="enterprise_news">أخبار المؤسسة</string>
+    <string name="name">الاسم</string>
+    <string name="birth_date">تاريخ الميلاد</string>
+    <string name="acadmy_level">المرحلة الدراسية</string>
+    <string name="school_name">أسم المدرسة</string>
+    <string name="disease"> الامراض</string>
+    <string name="information">معلومات</string>
+    <string name="signin_and_see_ur_orphhans">سجل دخولك واطلع على ايتامك</string>
+    <string name="email">أسم الدخول</string>
+    <string name="password">كلمةالمرور</string>
+    <string name="signin">تسجيل الدخول</string>
+    <string name="problem_happened">حدثت مشكلة</string>
+    <string name="has_been_logged">تم تسجيل الدخول</string>
+    <string name="Please_fill_in_the_fields">يرجى ملئ الحقول</string>
+    <string name="Hello">مرحباً</string>
+    <string name="sponsor">اكفل</string>
+    <string name="signout">تسجيل الخروج</string>
+    <string name="checkPermissionExist">تأكد من اعطاء كافة التصاريح للتطبيق</string>
+</resources>

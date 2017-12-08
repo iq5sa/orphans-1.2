@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1032970935637",
+    "firebase_url": "https://orphans-c21e9.firebaseio.com",
+    "project_id": "orphans-c21e9",
+    "storage_bucket": "orphans-c21e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032970935637:android:b22647aab874f31c",
+        "android_client_info": {
+          "package_name": "alghima.io.gmushriq"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1032970935637-1uogtp3lr85dl34a3bk3oagm3tjbapde.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVrMwF3DLVthI4LLpQpyZUj4m_re7dvLk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
